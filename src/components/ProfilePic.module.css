@@ -1,0 +1,21 @@
+.section {
+  div {
+    @apply mx-auto mt-8;
+    width: 150px;
+    height: 150px;
+  }
+
+  img {
+    @apply absolute rounded-full shadow-black drop-shadow-xl dark:border-slate-500;
+
+    &:nth-child(2) {
+      image-rendering: pixelated;
+      transition: opacity 0.5s ease-in-out;
+      cursor: zoom-in;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+  }
+}
