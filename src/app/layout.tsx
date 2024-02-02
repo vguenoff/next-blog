@@ -23,7 +23,6 @@ export default function RootLayout({
       <body className={`${inter.className} bg-slate-800`}>
         <Navbar />
         <ProfilePic />
-
         {children}
       </body>
     </html>

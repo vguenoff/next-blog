@@ -1,6 +1,7 @@
 .section {
   div {
     @apply mx-auto mt-8;
+
     width: 150px;
     height: 150px;
   }
